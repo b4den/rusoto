@@ -3104,9 +3104,9 @@ pub struct TestInvokeMethodResponse {
     #[serde(skip_serializing_if = "Option::is_none")]
     pub log: Option<String>,
     /// <p>The headers of the HTTP response as a map from string to list of values.</p>
-    #[serde(rename = "multiValueHeaders")]
-    #[serde(skip_serializing_if = "Option::is_none")]
-    pub multi_value_headers: Option<::std::collections::HashMap<String, Vec<String>>>,
+    //#[serde(rename = "multiValueHeaders")]
+    //#[serde(skip_serializing_if = "Option::is_none")]
+    //pub multi_value_headers: Option<::std::collections::HashMap<String, Vec<String>>>,
     /// <p>The HTTP status code.</p>
     #[serde(rename = "status")]
     #[serde(skip_serializing_if = "Option::is_none")]
